@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENJO · The fibre that only needs cold water</title>
+  <meta name="description" content="Effective, sustainable cleaning with high-quality Austrian fibres and pure cold water. Shop the ENJO range — a Wix Headless storefront prototype.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header data-enjo-header></header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <span class="hero__eyebrow">since 1990 · made in Austria</span>
+        <h1>The fibre that only needs <span class="sun-word">cold water</span>.</h1>
+        <p>Clean your whole home effectively and sustainably with high-quality fibres and pure water — no harmful chemicals, less plastic, half the time.</p>
+        <div class="hero__cta">
+          <a class="btn btn--sun btn--lg" href="shop.html">Shop the range</a>
+          <a class="btn btn--ghost btn--lg" href="#why">Why ENJO</a>
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stat"><strong>~500€</strong><span>saved over fibre life</span></div>
+          <div class="hero__stat"><strong>3 yrs</strong><span>optimal performance</span></div>
+          <div class="hero__stat"><strong>100%</strong><span>recyclable fibres</span></div>
+        </div>
+      </div>
+      <div class="hero__art">
+        <div class="blob"></div>
+        <svg class="blob__sun" viewBox="0 0 100 100" aria-hidden="true">
+          <g transform="translate(50,50)">
+            <circle r="16" fill="#ffd21f"/>
+            <g stroke="#ffd21f" stroke-width="6" stroke-linecap="round">
+              <line x1="0" y1="-24" x2="0" y2="-36"/>
+              <line x1="17" y1="-17" x2="25" y2="-25"/>
+              <line x1="24" y1="0" x2="36" y2="0"/>
+              <line x1="17" y1="17" x2="25" y2="25"/>
+              <line x1="0" y1="24" x2="0" y2="36"/>
+              <line x1="-17" y1="17" x2="-25" y2="25"/>
+              <line x1="-24" y1="0" x2="-36" y2="0"/>
+              <line x1="-17" y1="-17" x2="-25" y2="-25"/>
+            </g>
+          </g>
+        </svg>
+        <div class="drops"><span></span><span></span><span></span><span></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- USP STRIP -->
+  <section class="section">
+    <div class="wrap">
+      <div class="usp-strip">
+        <div class="usp">
+          <div class="usp__icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3c4 5 6 8 6 11a6 6 0 1 1-12 0c0-3 2-6 6-11z" stroke-linejoin="round"/></svg></div>
+          <h3>Just cold water</h3>
+          <p>Microscopic fibres reach into every pore — no detergents needed.</p>
+        </div>
+        <div class="usp">
+          <div class="usp__icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12a9 9 0 0 1 9-9 9 9 0 0 1 9 9" stroke-linecap="round"/><path d="M7 12c1-4 9-4 10 0" stroke-linecap="round"/></svg></div>
+          <h3>Healthier air</h3>
+          <p>Fewer chemicals at home means cleaner indoor air for your family.</p>
+        </div>
+        <div class="usp">
+          <div class="usp__icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12a9 9 0 1 1-6.2-8.5" stroke-linecap="round"/><path d="M21 4v5h-5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Reusable for years</h3>
+          <p>~3 years of cleaning power, then fully recycled into new materials.</p>
+        </div>
+        <div class="usp">
+          <div class="usp__icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Half the time</h3>
+          <p>Quick and easy — clean more, with less effort and less waste.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="section section--tint" id="shop">
+    <div class="wrap">
+      <div class="section__head" data-reveal>
+        <span class="eyebrow">shop by room</span>
+        <h2>One method, every corner of your home</h2>
+        <p>From the kitchen to the bathroom, floors, windows and even skin care — there's an ENJO fibre for it.</p>
+      </div>
+      <div class="cat-grid" id="home-categories" data-reveal></div>
+    </div>
+  </section>
+
+  <!-- FEATURED -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section__head" data-reveal>
+        <span class="eyebrow">customer favourites</span>
+        <h2>Where most people start</h2>
+        <p>Best-loved fibres and helpers to begin your switch to cold-water cleaning.</p>
+      </div>
+      <div class="product-grid" id="home-featured" data-reveal></div>
+    </div>
+  </section>
+
+  <!-- WHY / SAVINGS SPLIT -->
+  <section class="section section--tint" id="why">
+    <div class="wrap">
+      <div class="split">
+        <div class="split__visual" data-reveal>
+          <div class="big-num">500€+<span>saved over fibre life*</span></div>
+        </div>
+        <div data-reveal>
+          <span class="eyebrow">your advantages</span>
+          <h2>Beyond clean — and beyond ordinary</h2>
+          <p class="section__head" style="margin:10px 0 0;">Switching a four-person household to ENJO over three years means a lot less waste and a lot more savings.</p>
+          <ul class="checklist">
+            <li>~1,500 cloths &amp; sponges avoided</li>
+            <li>75 plastic bottles &amp; 15L laundry detergent saved</li>
+            <li>50L of harmful chemicals kept out of the drain</li>
+            <li>About 50% less water used</li>
+          </ul>
+          <p style="font-size:.78rem;color:var(--ink-soft);margin-top:14px;">*Illustrative figures based on the ENJO brochure, four-person household.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIFECYCLE -->
+  <section class="section" id="lifecycle">
+    <div class="wrap">
+      <div class="section__head center" data-reveal>
+        <span class="eyebrow">truly ENJO — truly eco</span>
+        <h2>A clean cycle, from Austria to your home and back</h2>
+      </div>
+      <div class="usp-strip" data-reveal>
+        <div class="usp"><div class="usp__icon">🌿</div><h3>Regional raw materials</h3><p>80% of suppliers from Vorarlberg, Austria. OEKO-TEX® Standard 100.</p></div>
+        <div class="usp"><div class="usp__icon">🏭</div><h3>Clean production</h3><p>Green power, environmentally aware teams, zero additional waste to you.</p></div>
+        <div class="usp"><div class="usp__icon">💧</div><h3>ENJOpure at home</h3><p>Clean with ENJO and cold water only — for healthier living spaces.</p></div>
+        <div class="usp" id="recycle"><div class="usp__icon">♻️</div><h3>100% recycling</h3><p>Return worn fibres; they become insulation, fillers and more.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="wrap">
+      <div class="cta-band" data-reveal>
+        <h2>Become ENJOpure</h2>
+        <p>Clean your entire household with cold water and high-quality fibres. Start with a few essentials and feel the difference.</p>
+        <a class="btn btn--sun btn--lg" href="shop.html">Start shopping</a>
+      </div>
+    </div>
+  </section>
+
+  <footer data-enjo-footer></footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/thumb.js"></script>
+  <script src="assets/js/store.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/home.js"></script>
+</body>
+</html>
